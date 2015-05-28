@@ -1,6 +1,9 @@
 from multiprocessing import Pool
 import random
 
+"""
+	The function makes a call to random end point
+"""
 def f( x):
 	import pycurl, json
 	items = [
